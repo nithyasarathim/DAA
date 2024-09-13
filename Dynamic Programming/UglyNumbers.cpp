@@ -15,5 +15,11 @@ boolean uglyNum(int n)
 }
 int main()
 {
- 
+ int num;
+  cout<<"Enter the n'th value for finding the required Ugly Number :";
+  cin>>num;
+  for(int i=0;i<num;i++)
+    {
+      cout<<uglyNum(n)<<" ";
+    }
 }
